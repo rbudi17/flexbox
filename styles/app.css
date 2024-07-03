@@ -9,3 +9,31 @@ body {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
+
+.menu-container {
+  color: #fff;
+  background: #5995da;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  border: 1px solid #fff; /* For debugging */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  border: 1px solid #fff; /* For debugging */
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
